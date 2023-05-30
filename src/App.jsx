@@ -13,7 +13,7 @@ function App() {
   return (
 
 
-    <Router basename='/sampel'>
+    <Router>
       <Nav />
       <Routes >
         <Route path='/sampel' element={<Home />} />
