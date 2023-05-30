@@ -9,11 +9,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
 
-
   return (
 
 
-    <Router>
+    <Router basename='/sampel'>
       <Nav />
       <Routes >
         <Route path='/sampel' element={<Home />} />
