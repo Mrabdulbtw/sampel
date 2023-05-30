@@ -15,7 +15,7 @@ function App() {
     <Router basename='/sampel'>
       <Nav />
       <Routes >
-        <Route  path='/sampel' element={<Home />} />
+        <Route path='/sampel' element={<Home />} />
         <Route path='/select' element={<Select />} />
         <Route />
       </Routes>
